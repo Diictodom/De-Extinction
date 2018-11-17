@@ -1,0 +1,29 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "deextinction:microscope_block" 
+        },
+    
+        "facing=south": 
+        { 
+            "model": "deextinction:microscope_block" 
+        },
+    
+        "facing=east": 
+        { 
+            "model": "deextinction:microscope_block","y":270 
+        },
+    
+        "facing=west": 
+        { 
+            "model": "deextinction:microscope_block","y":90 
+        },
+    
+        "facing=north": 
+        { 
+            "model": "deextinction:microscope_block","y":180 
+        }
+    }
+}

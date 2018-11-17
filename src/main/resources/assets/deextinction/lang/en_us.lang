@@ -1,0 +1,80 @@
+
+item.chisel.name=Chisel
+item.cenozoic_fossil_clean.name=Clean Cenozoic Fossil
+item.cenozoic_fossil_dirty.name=Dirty Cenozoic Fossil
+item.mesozoic_fossil_clean.name=Clean Mesozoic Fossil
+item.mesozoic_fossil_dirty.name=Dirty Mesozoic Fossil
+item.paleozoic_fossil_clean.name=Clean Paleozoic Fossil
+item.paleozoic_fossil_dirty.name=Dirty Paleozoic Fossil
+item.brush.name=Brush
+item.vial.name=Empty Vial
+item.diamond_shard.name=Diamond Shard
+item.syringe.name=Syringe
+item.syringeblood.name=Syringe of Blood
+item.vialblood.name=Vial of blood
+item.vialblooddefected.name=Vial of Defected Blood
+item.vialcentrifuge.name=Centrifuged Vial
+item.vialfossil.name=Vial of Fossil Dust
+item.electronic.name=Electronic Circuit
+item.grindingstone.name=Grinding Stone
+item.gear.name=Gear
+
+
+
+
+//food
+item.kelenken_meat_raw.name=Raw Kelenken Meat
+item.kelenken_meat_cooked.name=Cooked Kelenken Meat
+item.villager_meat_raw.name=Raw Villager Meat
+item.villager_meat_cooked.name=Cooked Villager Meat
+
+
+//drop
+item.kelenken_feather.name=Kelenken Feather
+
+//tabs
+itemGroup.modtab=De-Extinction mod
+
+//drop
+item.kelenken_feather.name=Kelenken Feather
+
+//tabs
+itemGroup.modtab=De-Extinction mod
+
+//blocks
+tile.paleozoic_fossil_block.name=Paleozoic Fossil
+tile.mesozoic_fossil_block.name=Mesozoic Fossil
+tile.cenozoic_fossil_block.name=Cenozoic Fossil
+tile.cleaning_table_block.name=Fossil Cleaning Station
+tile.embryonic_machine_block.name=Embryonic Research Station
+tile.egg_machine_block.name=Embryo Injection Station
+tile.centrifuge_block.name=Centrifuge
+tile.permafrost_block.name=Permafrost
+tile.grinder_block.name=Grinder
+tile.microscope_block.name=Microscope
+tile.water_generator_block.name=Water Turbinek
+tile.solar_block.name=Solar Panel
+tile.estorage_block.name=Energy Accumulator
+tile.generator_block.name=Energy Generator
+tile.machine_block.name=Machine Component Block
+
+
+//Entity
+entity.kelenken.name=Kelenken guillermoi
+entity.arctotherium.name=Arctotherium bonariense
+entity.smilodon.name=Smilodon populator
+entity.glyptodon.name=Glyptodon clavipes
+entity.sebecus.name=Sebecus icaeorhinus
+entity.canisnehringi.name=Canis nehringi
+entity.cuvieronius.name=Cuvieronius hyodon
+entity.macrauchenia.name=Macrauchenia ullomensis
+entity.theriodictis.name=Theriodictis tarijensis
+entity.toxodon.name=Toxodon platensis
+entity.fisko.name=Error: Felid Not Found
+entity.jai.name=Error: Bovid 1 Not Found
+entity.lucas.name=Error: Avian Not Found 
+entity.rafa.name=Error: Bovid 2 Not Found
+entity.zeinner.name=Error: Suids Not Found
+entity.john.name=Error: Lagomorph Not Found
+entity.ruroni.name=Error: Canid Not Found
+entity.creepy.name=Error: Chiropteran Not Found

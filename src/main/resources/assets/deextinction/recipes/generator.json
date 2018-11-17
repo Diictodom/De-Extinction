@@ -1,0 +1,62 @@
+<<<<<<< HEAD
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"XXX",
+		"FEF",
+		"XMX"
+	],
+
+	"key": {
+		"F": {
+			"item": "minecraft:furnace"
+		},
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+		"E": {
+			"item": "deextinction:electronic"
+		},
+		"M": {
+			"item": "deextinction:machine_block"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:generator_block",
+		"count": 1
+	}
+=======
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"XXX",
+		"FEF",
+		"XMX"
+	],
+
+	"key": {
+		"F": {
+			"item": "minecraft:furnace"
+		},
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+		"E": {
+			"item": "deextinction:electronic"
+		},
+		"M": {
+			"item": "deextinction:machine_block"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:generator_block",
+		"count": 1
+	}
+>>>>>>> 25d16888c7dece43ad9ddb52286e6653e2fc718b
+}

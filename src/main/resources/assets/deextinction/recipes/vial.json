@@ -1,0 +1,52 @@
+<<<<<<< HEAD
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"  X",
+		" C ",
+		"C  "
+	],
+
+	"key": {
+		"X": {
+			"item": "minecraft:wooden_button"
+		},
+
+		"C": {
+			"item": "minecraft:glass"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:vial",
+		"count": 1
+	}
+=======
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"  X",
+		" C ",
+		"C  "
+	],
+
+	"key": {
+		"X": {
+			"item": "minecraft:wooden_button"
+		},
+
+		"C": {
+			"item": "minecraft:glass"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:vial",
+		"count": 1
+	}
+>>>>>>> 25d16888c7dece43ad9ddb52286e6653e2fc718b
+}

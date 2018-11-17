@@ -1,0 +1,30 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "deextinction:generator_block" 
+        },
+    
+        "facing=south": 
+        { 
+            "model": "deextinction:generator_block" 
+        },
+    
+        "facing=east": 
+        { 
+            "model": "deextinction:generator_block","y":270 
+        },
+    
+        "facing=west": 
+        { 
+            "model": "deextinction:generator_block","y":90 
+        },
+    
+        "facing=north": 
+        { 
+            "model": "deextinction:generator_block","y":180 
+        }
+    }
+}
+

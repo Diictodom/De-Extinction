@@ -1,0 +1,30 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "deextinction:solar_block" 
+        },
+    
+        "facing=south": 
+        { 
+            "model": "deextinction:solar_block" 
+        },
+    
+        "facing=east": 
+        { 
+            "model": "deextinction:solar_block","y":270 
+        },
+    
+        "facing=west": 
+        { 
+            "model": "deextinction:solar_block","y":90 
+        },
+    
+        "facing=north": 
+        { 
+            "model": "deextinction:solar_block","y":180 
+        }
+    }
+}
+

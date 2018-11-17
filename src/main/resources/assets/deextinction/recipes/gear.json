@@ -1,0 +1,54 @@
+<<<<<<< HEAD
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"ZZZ",
+		"ZXZ",
+		"ZZZ"
+	],
+
+	"key": {
+		"Z": {
+			"item": "minecraft:iron_nugget"
+		},
+
+		"X": {
+			"item": "minecraft:iron_ingot",
+			"data": 0
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:gear",
+		"count": 1
+	}
+=======
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"ZZZ",
+		"ZXZ",
+		"ZZZ"
+	],
+
+	"key": {
+		"Z": {
+			"item": "minecraft:iron_nugget"
+		},
+
+		"X": {
+			"item": "minecraft:iron_ingot",
+			"data": 0
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:gear",
+		"count": 1
+	}
+>>>>>>> 25d16888c7dece43ad9ddb52286e6653e2fc718b
+}

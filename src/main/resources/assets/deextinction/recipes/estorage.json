@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"XVX",
+		"CZC",
+		"XBX"
+	],
+
+	"key": {
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+
+		"Z": {
+			"item": "minecraft:redstone_block",
+			"data": 0
+		},
+		"C": {
+			"item": "minecraft:iron_bars"
+		},
+		"V": {
+			"item": "deextinction:electronic"
+		},
+		"B": {
+			"item": "deextinction:machine_block"
+		}
+
+	},
+	
+	"result": {
+		"item": "deextinction:estorage_block",
+		"count": 1
+	}
+=======
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"XVX",
+		"CZC",
+		"XBX"
+	],
+
+	"key": {
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+
+		"Z": {
+			"item": "minecraft:redstone_block",
+			"data": 0
+		},
+		"C": {
+			"item": "minecraft:iron_bars"
+		},
+		"V": {
+			"item": "deextinction:electronic"
+		},
+		"B": {
+			"item": "deextinction:machine_block"
+		}
+
+	},
+	
+	"result": {
+		"item": "deextinction:estorage_block",
+		"count": 1
+	}
+>>>>>>> 25d16888c7dece43ad9ddb52286e6653e2fc718b
+}

@@ -1,0 +1,304 @@
+package com.deextinction.deextinction.entity.model.cenozoic;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.MathHelper;
+import net.minecraft.client.renderer.GlStateManager;
+import org.lwjgl.opengl.GL11;
+
+/**
+ * Canis Nehringi - Batman
+ * Created using Tabula 7.0.0
+ */
+public class ModelCanisNehringi extends ModelBase {
+    public ModelRenderer rear;
+    public ModelRenderer fleftjoint;
+    public ModelRenderer frightjoint;
+    public ModelRenderer rleftjoint;
+    public ModelRenderer rrightjoint;
+    public ModelRenderer front;
+    public ModelRenderer bellyfur;
+    public ModelRenderer tail1;
+    public ModelRenderer neck;
+    public ModelRenderer head;
+    public ModelRenderer neckfur;
+    public ModelRenderer topjaw;
+    public ModelRenderer lowerjaw;
+    public ModelRenderer leftear1;
+    public ModelRenderer rightear1;
+    public ModelRenderer snout;
+    public ModelRenderer lowerjaw2;
+    public ModelRenderer cheek1;
+    public ModelRenderer cheek2;
+    public ModelRenderer leftear2;
+    public ModelRenderer leftear3;
+    public ModelRenderer rightear2;
+    public ModelRenderer rightear3;
+    public ModelRenderer tail2;
+    public ModelRenderer tailfur1;
+    public ModelRenderer tail3;
+    public ModelRenderer tailfur2;
+    public ModelRenderer tailfur3;
+    public ModelRenderer leftarm1;
+    public ModelRenderer leftarm2;
+    public ModelRenderer leftarm3;
+    public ModelRenderer leftpaw;
+    public ModelRenderer rightarm1;
+    public ModelRenderer rightarm2;
+    public ModelRenderer rightarm3;
+    public ModelRenderer rightpaw;
+    public ModelRenderer leftleg1;
+    public ModelRenderer leftleg2;
+    public ModelRenderer leftleg3;
+    public ModelRenderer leftfoot;
+    public ModelRenderer rightleg1;
+    public ModelRenderer rightleg2;
+    public ModelRenderer rightleg3;
+    public ModelRenderer rightfoot;
+
+    public ModelCanisNehringi() {
+        this.textureWidth = 80;
+        this.textureHeight = 200;
+        this.rrightjoint = new ModelRenderer(this, 0, 0);
+        this.rrightjoint.setRotationPoint(-2.0F, 9.0F, 8.4F);
+        this.rrightjoint.addBox(-0.5F, -0.5F, -0.5F, 1, 1, 1, 0.0F);
+        this.tailfur1 = new ModelRenderer(this, 30, 153);
+        this.tailfur1.setRotationPoint(-2.0F, 2.0F, -0.1F);
+        this.tailfur1.addBox(0.0F, 0.0F, 0.0F, 4, 2, 10, 0.0F);
+        this.topjaw = new ModelRenderer(this, 30, 63);
+        this.topjaw.setRotationPoint(0.0F, 0.1F, -5.5F);
+        this.topjaw.addBox(-2.0F, -1.5F, -6.0F, 4, 3, 6, 0.0F);
+        this.leftleg3 = new ModelRenderer(this, 16, 156);
+        this.leftleg3.setRotationPoint(0.0F, 7.4F, 0.2F);
+        this.leftleg3.addBox(-1.0F, 0.0F, -1.0F, 2, 7, 3, 0.0F);
+        this.setRotateAngle(leftleg3, -0.5009094953223726F, 0.0F, 0.0F);
+        this.rightear1 = new ModelRenderer(this, 20, 92);
+        this.rightear1.setRotationPoint(-3.3F, -1.3F, -1.0F);
+        this.rightear1.addBox(-1.5F, -2.0F, -0.5F, 3, 2, 1, 0.0F);
+        this.setRotateAngle(rightear1, 0.0F, 1.0471975511965976F, -0.27314402793711257F);
+        this.leftarm2 = new ModelRenderer(this, 0, 139);
+        this.leftarm2.setRotationPoint(0.0F, 5.0F, 1.0F);
+        this.leftarm2.addBox(-1.5F, 0.0F, -1.5F, 3, 9, 3, 0.0F);
+        this.setRotateAngle(leftarm2, -0.4553564018453205F, 0.0F, 0.0F);
+        this.leftfoot = new ModelRenderer(this, 15, 169);
+        this.leftfoot.setRotationPoint(0.0F, 5.6F, 1.0F);
+        this.leftfoot.addBox(-1.5F, 0.0F, -3.0F, 3, 2, 4, 0.0F);
+        this.setRotateAngle(leftfoot, 0.18203784098300857F, 0.0F, 0.0F);
+        this.leftarm1 = new ModelRenderer(this, 0, 126);
+        this.leftarm1.setRotationPoint(2.0F, -1.1F, -1.1F);
+        this.leftarm1.addBox(-2.0F, 0.0F, -2.5F, 4, 6, 5, 0.0F);
+        this.setRotateAngle(leftarm1, 0.31869712141416456F, 0.0F, 0.0F);
+        this.rightarm3 = new ModelRenderer(this, 0, 153);
+        this.rightarm3.setRotationPoint(0.0F, 8.5F, -0.4F);
+        this.rightarm3.addBox(-1.0F, 0.0F, -1.0F, 2, 4, 3, 0.0F);
+        this.setRotateAngle(rightarm3, -0.18203784098300857F, 0.0F, 0.0F);
+        this.neck = new ModelRenderer(this, 0, 49);
+        this.neck.setRotationPoint(0.0F, -1.4F, -5.9F);
+        this.neck.addBox(-3.0F, -3.4F, -11.0F, 6, 7, 11, 0.0F);
+        this.setRotateAngle(neck, -0.045553093477052F, 0.0F, 0.0F);
+        this.neckfur = new ModelRenderer(this, 0, 94);
+        this.neckfur.setRotationPoint(0.0F, 1.5F, -11.1F);
+        this.neckfur.addBox(-2.5F, 0.0F, 0.0F, 5, 2, 9, 0.0F);
+        this.setRotateAngle(neckfur, -0.27314402793711257F, 0.0F, 0.0F);
+        this.lowerjaw = new ModelRenderer(this, 0, 84);
+        this.lowerjaw.setRotationPoint(0.0F, 2.5F, -5.3F);
+        this.lowerjaw.addBox(-1.5F, -1.0F, -6.0F, 3, 1, 6, 0.0F);
+        this.rightleg1 = new ModelRenderer(this, 20, 126);
+        this.rightleg1.setRotationPoint(-2.0F, -1.8F, -0.3F);
+        this.rightleg1.addBox(-2.0F, 0.0F, -3.5F, 4, 6, 7, 0.0F);
+        this.setRotateAngle(rightleg1, -0.18203784098300857F, 0.0F, 0.0F);
+        this.cheek2 = new ModelRenderer(this, 24, 1);
+        this.cheek2.setRotationPoint(-1.3F, -3.2F, 0.6F);
+        this.cheek2.addBox(0.0F, 0.0F, -1.5F, 0, 3, 3, 0.0F);
+        this.setRotateAngle(cheek2, -0.36425021489121656F, 0.0F, 0.0F);
+        this.fleftjoint = new ModelRenderer(this, 0, 0);
+        this.fleftjoint.setRotationPoint(2.8F, 7.0F, -7.1F);
+        this.fleftjoint.addBox(-0.5F, -0.5F, -0.5F, 1, 1, 1, 0.0F);
+        this.tail1 = new ModelRenderer(this, 20, 167);
+        this.tail1.setRotationPoint(0.0F, -3.6F, 11.9F);
+        this.tail1.addBox(-2.5F, -2.5F, 0.0F, 5, 5, 10, 0.0F);
+        this.setRotateAngle(tail1, -0.8196066167365371F, 0.0F, 0.0F);
+        this.tail2 = new ModelRenderer(this, 0, 177);
+        this.tail2.setRotationPoint(0.0F, -0.5F, 9.0F);
+        this.tail2.addBox(-2.0F, -2.0F, 0.0F, 4, 4, 11, 0.0F);
+        this.setRotateAngle(tail2, -0.31869712141416456F, 0.0F, 0.0F);
+        this.tail3 = new ModelRenderer(this, 33, 185);
+        this.tail3.setRotationPoint(0.0F, -0.5F, 10.7F);
+        this.tail3.addBox(-1.5F, -1.5F, 0.0F, 3, 3, 4, 0.0F);
+        this.setRotateAngle(tail3, 0.22759093446006054F, 0.0F, 0.0F);
+        this.rightleg2 = new ModelRenderer(this, 16, 141);
+        this.rightleg2.setRotationPoint(0.0F, 2.9F, -1.7F);
+        this.rightleg2.addBox(-1.5F, 0.0F, -2.0F, 3, 9, 4, 0.0F);
+        this.setRotateAngle(rightleg2, 0.5009094953223726F, 0.0F, 0.0F);
+        this.tailfur3 = new ModelRenderer(this, 42, 167);
+        this.tailfur3.setRotationPoint(-1.0F, 1.0F, -1.0F);
+        this.tailfur3.addBox(0.0F, 0.0F, 0.0F, 2, 3, 4, 0.0F);
+        this.setRotateAngle(tailfur3, 0.5462880558742251F, 0.0F, 0.0F);
+        this.lowerjaw2 = new ModelRenderer(this, 1, 84);
+        this.lowerjaw2.setRotationPoint(0.0F, 0.8F, 0.0F);
+        this.lowerjaw2.addBox(-1.0F, -1.0F, -6.0F, 2, 1, 6, 0.0F);
+        this.setRotateAngle(lowerjaw2, -0.091106186954104F, 0.0F, 0.0F);
+        this.rightear3 = new ModelRenderer(this, 39, 92);
+        this.rightear3.setRotationPoint(0.0F, -1.9F, 0.0F);
+        this.rightear3.addBox(-0.5F, -1.0F, -0.5F, 1, 1, 1, 0.0F);
+        this.tailfur2 = new ModelRenderer(this, 36, 139);
+        this.tailfur2.setRotationPoint(-1.5F, 1.9F, 0.9F);
+        this.tailfur2.addBox(0.0F, 0.0F, 0.0F, 3, 2, 10, 0.0F);
+        this.setRotateAngle(tailfur2, 0.091106186954104F, 0.0F, 0.0F);
+        this.leftarm3 = new ModelRenderer(this, 0, 153);
+        this.leftarm3.setRotationPoint(0.0F, 8.5F, -0.4F);
+        this.leftarm3.addBox(-1.0F, 0.0F, -1.0F, 2, 4, 3, 0.0F);
+        this.setRotateAngle(leftarm3, -0.18203784098300857F, 0.0F, 0.0F);
+        this.rleftjoint = new ModelRenderer(this, 0, 0);
+        this.rleftjoint.setRotationPoint(2.0F, 9.0F, 8.4F);
+        this.rleftjoint.addBox(-0.5F, -0.5F, -0.5F, 1, 1, 1, 0.0F);
+        this.bellyfur = new ModelRenderer(this, 0, 107);
+        this.bellyfur.setRotationPoint(-3.5F, 3.2F, -2.3F);
+        this.bellyfur.addBox(0.0F, 0.0F, 0.0F, 7, 3, 14, 0.0F);
+        this.leftear1 = new ModelRenderer(this, 19, 86);
+        this.leftear1.setRotationPoint(3.3F, -1.3F, -1.0F);
+        this.leftear1.addBox(-1.5F, -2.0F, -0.5F, 3, 2, 1, 0.0F);
+        this.setRotateAngle(leftear1, 0.0F, -1.0471975511965976F, 0.27314402793711257F);
+        this.front = new ModelRenderer(this, 0, 0);
+        this.front.setRotationPoint(0.0F, -0.5F, 1.0F);
+        this.front.addBox(-5.0F, -5.0F, -11.0F, 10, 10, 11, 0.0F);
+        this.setRotateAngle(front, -0.136659280431156F, 0.0F, 0.0F);
+        this.leftear2 = new ModelRenderer(this, 29, 86);
+        this.leftear2.setRotationPoint(0.0F, -2.0F, 0.0F);
+        this.leftear2.addBox(-1.0F, -2.0F, -0.5F, 2, 2, 1, 0.0F);
+        this.rightarm1 = new ModelRenderer(this, 0, 126);
+        this.rightarm1.setRotationPoint(-2.0F, -1.1F, -1.1F);
+        this.rightarm1.addBox(-2.0F, 0.0F, -2.5F, 4, 6, 5, 0.0F);
+        this.setRotateAngle(rightarm1, 0.31869712141416456F, 0.0F, 0.0F);
+        this.rightfoot = new ModelRenderer(this, 15, 169);
+        this.rightfoot.setRotationPoint(0.0F, 5.6F, 1.0F);
+        this.rightfoot.addBox(-1.5F, 0.0F, -3.0F, 3, 2, 4, 0.0F);
+        this.setRotateAngle(rightfoot, 0.18203784098300857F, 0.0F, 0.0F);
+        this.rightear2 = new ModelRenderer(this, 30, 92);
+        this.rightear2.setRotationPoint(0.0F, -2.0F, 0.0F);
+        this.rightear2.addBox(-1.0F, -2.0F, -0.5F, 2, 2, 1, 0.0F);
+        this.rightleg3 = new ModelRenderer(this, 16, 156);
+        this.rightleg3.setRotationPoint(0.0F, 7.4F, 0.2F);
+        this.rightleg3.addBox(-1.0F, 0.0F, -1.0F, 2, 7, 3, 0.0F);
+        this.setRotateAngle(rightleg3, -0.5009094953223726F, 0.0F, 0.0F);
+        this.frightjoint = new ModelRenderer(this, 0, 0);
+        this.frightjoint.setRotationPoint(-2.8F, 7.0F, -7.1F);
+        this.frightjoint.addBox(-0.5F, -0.5F, -0.5F, 1, 1, 1, 0.0F);
+        this.snout = new ModelRenderer(this, 28, 73);
+        this.snout.setRotationPoint(0.0F, -1.5F, -6.7F);
+        this.snout.addBox(-1.5F, 0.0F, 0.0F, 3, 3, 8, 0.0F);
+        this.setRotateAngle(snout, 0.22759093446006054F, 0.0F, 0.0F);
+        this.rear = new ModelRenderer(this, 0, 23);
+        this.rear.setRotationPoint(0.0F, 9.0F, -1.7F);
+        this.rear.addBox(-4.5F, -5.5F, 0.0F, 9, 10, 14, 0.0F);
+        this.setRotateAngle(rear, -0.045553093477052F, 0.0F, 0.0F);
+        this.leftpaw = new ModelRenderer(this, 0, 162);
+        this.leftpaw.setRotationPoint(0.0F, 3.3F, 1.0F);
+        this.leftpaw.addBox(-1.5F, 0.0F, -3.0F, 3, 2, 4, 0.0F);
+        this.setRotateAngle(leftpaw, 0.31869712141416456F, 0.0F, 0.0F);
+        this.cheek1 = new ModelRenderer(this, 24, 1);
+        this.cheek1.setRotationPoint(1.3F, -3.2F, 0.6F);
+        this.cheek1.addBox(0.0F, 0.0F, -1.5F, 0, 3, 3, 0.0F);
+        this.setRotateAngle(cheek1, -0.36425021489121656F, 0.0F, 0.0F);
+        this.head = new ModelRenderer(this, 1, 69);
+        this.head.setRotationPoint(0.0F, -0.4F, -9.7F);
+        this.head.addBox(-3.5F, -3.5F, -6.0F, 7, 7, 6, 0.0F);
+        this.setRotateAngle(head, 0.31869712141416456F, 0.0F, 0.0F);
+        this.rightpaw = new ModelRenderer(this, 0, 162);
+        this.rightpaw.setRotationPoint(0.0F, 3.3F, 1.0F);
+        this.rightpaw.addBox(-1.5F, 0.0F, -3.0F, 3, 2, 4, 0.0F);
+        this.setRotateAngle(rightpaw, 0.31869712141416456F, 0.0F, 0.0F);
+        this.leftear3 = new ModelRenderer(this, 37, 86);
+        this.leftear3.setRotationPoint(0.0F, -1.9F, 0.0F);
+        this.leftear3.addBox(-0.5F, -1.0F, -0.5F, 1, 1, 1, 0.0F);
+        this.rightarm2 = new ModelRenderer(this, 0, 139);
+        this.rightarm2.setRotationPoint(0.0F, 5.0F, 1.0F);
+        this.rightarm2.addBox(-1.5F, 0.0F, -1.5F, 3, 9, 3, 0.0F);
+        this.setRotateAngle(rightarm2, -0.4553564018453205F, 0.0F, 0.0F);
+        this.leftleg1 = new ModelRenderer(this, 20, 126);
+        this.leftleg1.setRotationPoint(2.0F, -1.8F, -0.3F);
+        this.leftleg1.addBox(-2.0F, 0.0F, -3.5F, 4, 6, 7, 0.0F);
+        this.setRotateAngle(leftleg1, -0.18203784098300857F, 0.0F, 0.0F);
+        this.leftleg2 = new ModelRenderer(this, 16, 141);
+        this.leftleg2.setRotationPoint(0.0F, 2.9F, -1.7F);
+        this.leftleg2.addBox(-1.5F, 0.0F, -2.0F, 3, 9, 4, 0.0F);
+        this.setRotateAngle(leftleg2, 0.5009094953223726F, 0.0F, 0.0F);
+        this.tail1.addChild(this.tailfur1);
+        this.head.addChild(this.topjaw);
+        this.leftleg2.addChild(this.leftleg3);
+        this.head.addChild(this.rightear1);
+        this.leftarm1.addChild(this.leftarm2);
+        this.leftleg3.addChild(this.leftfoot);
+        this.fleftjoint.addChild(this.leftarm1);
+        this.rightarm2.addChild(this.rightarm3);
+        this.front.addChild(this.neck);
+        this.neck.addChild(this.neckfur);
+        this.head.addChild(this.lowerjaw);
+        this.rrightjoint.addChild(this.rightleg1);
+        this.lowerjaw.addChild(this.cheek2);
+        this.rear.addChild(this.tail1);
+        this.tail1.addChild(this.tail2);
+        this.tail2.addChild(this.tail3);
+        this.rightleg1.addChild(this.rightleg2);
+        this.tail3.addChild(this.tailfur3);
+        this.lowerjaw.addChild(this.lowerjaw2);
+        this.rightear2.addChild(this.rightear3);
+        this.tail2.addChild(this.tailfur2);
+        this.leftarm2.addChild(this.leftarm3);
+        this.rear.addChild(this.bellyfur);
+        this.head.addChild(this.leftear1);
+        this.rear.addChild(this.front);
+        this.leftear1.addChild(this.leftear2);
+        this.frightjoint.addChild(this.rightarm1);
+        this.rightleg3.addChild(this.rightfoot);
+        this.rightear1.addChild(this.rightear2);
+        this.rightleg2.addChild(this.rightleg3);
+        this.topjaw.addChild(this.snout);
+        this.leftarm3.addChild(this.leftpaw);
+        this.lowerjaw.addChild(this.cheek1);
+        this.neck.addChild(this.head);
+        this.rightarm3.addChild(this.rightpaw);
+        this.leftear2.addChild(this.leftear3);
+        this.rightarm1.addChild(this.rightarm2);
+        this.rleftjoint.addChild(this.leftleg1);
+        this.leftleg1.addChild(this.leftleg2);
+    }
+
+    @Override
+    public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) { 
+        this.rrightjoint.render(f5);
+        this.fleftjoint.render(f5);
+        this.rleftjoint.render(f5);
+        this.frightjoint.render(f5);
+        GlStateManager.pushMatrix();
+        GlStateManager.translate(this.rear.offsetX, this.rear.offsetY, this.rear.offsetZ);
+        GlStateManager.translate(this.rear.rotationPointX * f5, this.rear.rotationPointY * f5, this.rear.rotationPointZ * f5);
+        GlStateManager.scale(0.9D, 0.9D, 0.9D);
+        GlStateManager.translate(-this.rear.offsetX, -this.rear.offsetY, -this.rear.offsetZ);
+        GlStateManager.translate(-this.rear.rotationPointX * f5, -this.rear.rotationPointY * f5, -this.rear.rotationPointZ * f5);
+        this.rear.render(f5);
+        GlStateManager.popMatrix();
+    }
+
+    /**
+     * This is a helper function from Tabula to set the rotation of model parts
+     */
+    public void setRotateAngle(ModelRenderer modelRenderer, float x, float y, float z) {
+        modelRenderer.rotateAngleX = x;
+        modelRenderer.rotateAngleY = y;
+        modelRenderer.rotateAngleZ = z;
+    }
+    
+    @Override
+    public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFator, Entity entityIn )
+    {
+    	this.rrightjoint.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F ) * 0.6F * limbSwingAmount;
+    	this.frightjoint.rotateAngleX = MathHelper.cos(limbSwing  * 0.6662F + (float)Math.PI) * 0.6F * limbSwingAmount;
+
+    
+    	
+    	this.rleftjoint.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI ) * 0.6F * limbSwingAmount;
+    	this.fleftjoint.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F ) * 0.6F * limbSwingAmount;
+    }
+}

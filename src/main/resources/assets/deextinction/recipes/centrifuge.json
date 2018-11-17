@@ -1,0 +1,74 @@
+<<<<<<< HEAD
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"ZZZ",
+		"CCC",
+		"VXB"
+	],
+
+	"key": {
+		"X": {
+			"item": "deextinction:machine_block"
+		},
+
+		"Z": {
+			"item": "minecraft:iron_ingot"
+		},
+		
+		"C": {
+			"item": "deextinction:vial"
+		},
+		
+		"V": {
+			"item": "deextinction:electronic"
+		},
+		"B": {
+			"item": "deextinction:estorage_block"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:centrifuge_block",
+		"count": 1
+	}
+=======
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"ZZZ",
+		"CCC",
+		"VXB"
+	],
+
+	"key": {
+		"X": {
+			"item": "deextinction:machine_block"
+		},
+
+		"Z": {
+			"item": "minecraft:iron_ingot"
+		},
+		
+		"C": {
+			"item": "deextinction:vial"
+		},
+		
+		"V": {
+			"item": "deextinction:electronic"
+		},
+		"B": {
+			"item": "deextinction:estorage_block"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:centrifuge_block",
+		"count": 1
+	}
+>>>>>>> 25d16888c7dece43ad9ddb52286e6653e2fc718b
+}

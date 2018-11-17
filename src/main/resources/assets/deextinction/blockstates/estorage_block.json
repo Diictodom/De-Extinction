@@ -1,0 +1,30 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "deextinction:estorage_block" 
+        },
+    
+        "facing=south": 
+        { 
+            "model": "deextinction:estorage_block" 
+        },
+    
+        "facing=east": 
+        { 
+            "model": "deextinction:estorage_block","y":270 
+        },
+    
+        "facing=west": 
+        { 
+            "model": "deextinction:estorage_block","y":90 
+        },
+    
+        "facing=north": 
+        { 
+            "model": "deextinction:estorage_block","y":180 
+        }
+    }
+}
+

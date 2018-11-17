@@ -1,0 +1,60 @@
+<<<<<<< HEAD
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"XXX",
+		"CZC",
+		"XXX"
+	],
+
+	"key": {
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+
+		"Z": {
+			"item": "deextinction:machine_block",
+			"data": 0
+		},
+		"C": {
+			"item": "minecraft:iron_bars"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:water_generator_block",
+		"count": 1
+	}
+=======
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"XXX",
+		"CZC",
+		"XXX"
+	],
+
+	"key": {
+		"X": {
+			"item": "minecraft:iron_ingot"
+		},
+
+		"Z": {
+			"item": "deextinction:machine_block",
+			"data": 0
+		},
+		"C": {
+			"item": "minecraft:iron_bars"
+		}
+
+	},
+
+	"result": {
+		"item": "deextinction:water_generator_block",
+		"count": 1
+	}
+>>>>>>> 25d16888c7dece43ad9ddb52286e6653e2fc718b
+}

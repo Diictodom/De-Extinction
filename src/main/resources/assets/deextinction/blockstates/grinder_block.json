@@ -1,0 +1,29 @@
+{
+    "variants": 
+    {
+        "facing=up": 
+        { 
+            "model": "deextinction:grinder_block" 
+        },
+    
+        "facing=south": 
+        { 
+            "model": "deextinction:grinder_block" 
+        },
+    
+        "facing=east": 
+        { 
+            "model": "deextinction:grinder_block","y":270 
+        },
+    
+        "facing=west": 
+        { 
+            "model": "deextinction:grinder_block","y":90 
+        },
+    
+        "facing=north": 
+        { 
+            "model": "deextinction:grinder_block","y":180 
+        }
+    }
+}
