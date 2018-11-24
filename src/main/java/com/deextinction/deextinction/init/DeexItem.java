@@ -5,6 +5,8 @@ import java.util.List;
 
 import com.deextinction.deextinction.items.ItemBase;
 import com.deextinction.deextinction.items.ItemCustomFood;
+import com.deextinction.deextinction.items.ItemSyringe;
+import com.deextinction.deextinction.items.ItemVial;
 
 import net.minecraft.item.Item;
 
@@ -23,19 +25,23 @@ public class DeexItem {
 	public static final Item KELENKEN_FEATHER = new ItemBase("kelenken_feather");
 	public static final Item BRUSH = new ItemBase("brush");
 	public static final Item CHISEL = new ItemBase("chisel");
-	public static final Item SYRINGE = new ItemBase("syringe");
-	public static final Item SYRINGEBLOOD = new ItemBase("syringeblood");
-	public static final Item VIAL = new ItemBase("vial");
-	public static final Item VIALBLOOD = new ItemBase("vialblood");
-	public static final Item VIALBLOODDEFECTED = new ItemBase("vialblooddefected");
-	public static final Item VIALCENTRIFUGE = new ItemBase("vialcentrifuge");
-	public static final Item VIALFOSSIL = new ItemBase("vialfossil");
+	
 	public static final Item DIAMOND_SHARD = new ItemBase("diamond_shard");
 	public static final Item ELECTRONIC = new ItemBase("electronic");
 	public static final Item GRINDINGSTONE = new ItemBase("grindingstone");
 	public static final Item GEAR = new ItemBase("gear");
 
-
+	//Syringes
+	public static final Item SYRINGE = new ItemSyringe("syringe");
+	public static final Item SYRINGEBLOOD = new ItemSyringe("syringeblood");
+	
+	//Vials
+	public static final Item VIAL = new ItemVial("vial");
+	public static final Item VIALBLOOD = new ItemVial("vialblood");
+	public static final Item VIALBLOODDEFECTED = new ItemVial("vialblooddefected");
+	public static final Item VIALCENTRIFUGE = new ItemVial("vialcentrifuge");
+	public static final Item VIALFOSSIL = new ItemVial("vialfossil");
+	
 
 
 	//Foods

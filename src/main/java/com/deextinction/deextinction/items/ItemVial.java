@@ -8,13 +8,12 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFood;
 
-public class ItemCustomFood extends ItemFood implements IHasModel {
-	public ItemCustomFood (String name, int amount, boolean isWolfFood)
+public class ItemVial extends Item implements IHasModel {
+	public ItemVial (String name)
 	{
-		super(amount, isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Deextinction.modtabfood);
+		setCreativeTab(Deextinction.modtabvial);
 		
 		DeexItem.ITEMS.add(this);
 		

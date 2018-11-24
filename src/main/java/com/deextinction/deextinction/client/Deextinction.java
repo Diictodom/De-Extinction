@@ -5,6 +5,9 @@ package com.deextinction.deextinction.client;
 import com.deextinction.deextinction.init.DeexBlocks;
 import com.deextinction.deextinction.proxy.CommonProxy;
 import com.deextinction.deextinction.tab.ModTab;
+import com.deextinction.deextinction.tab.ModTabFood;
+import com.deextinction.deextinction.tab.ModTabSyringe;
+import com.deextinction.deextinction.tab.ModTabVial;
 import com.deextinction.deextinction.util.handler.RegistryHandler;
 
 import net.minecraft.block.state.pattern.BlockMatcher;
@@ -26,8 +29,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 @Mod(modid = Deextinction.MODID, name = Deextinction.MODNAME, version = Deextinction.MODVERSION)
 public class Deextinction {
 	
-	
+	//tab
 	public static final CreativeTabs modtab = new ModTab("modtab");
+	public static final CreativeTabs modtabsyringe = new ModTabSyringe("modtabsyringe");
+	public static final CreativeTabs modtabfood = new ModTabFood("modtabfood");
+	public static final CreativeTabs modtabvial = new ModTabVial("modtabvial");
+	
+	
     public static final String MODID = "deextinction";
     public static final String MODNAME = "De-Extinction Mod";
 
