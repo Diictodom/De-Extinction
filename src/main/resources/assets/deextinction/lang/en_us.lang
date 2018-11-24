@@ -20,6 +20,22 @@ item.grindingstone.name=Grinding Stone
 item.gear.name=Gear
 
 
+//Vials
+
+
+//Syringes
+item.syringeblood_kelenken.name=Syringe of Kelenken's Blood
+item.syringeblood_smilodon.name=Syringe of Smilodon's Blood
+item.syringeblood_sebecus.name=Syringe of Sebecus's Blood
+item.syringeblood_glyptodon.name=Syringe of Glyptodon's Blood
+item.syringeblood_arctho.name=Syringe of Arcthotherium's Blood
+
+//Vials
+item.vialblood_kelenken.name=Vial of Kelenken's Blood
+item.vialblood_smilodon.name=Vial of Smilodon's Blood
+item.vialblood_sebecus.name=Vial of Sebecus's Blood
+item.vialblood_glyptodon.name=Vial of Glyptodon's Blood
+item.vialblood_arctho.name=Vial of Arcthotherium's Blood
 
 
 //food
@@ -33,7 +49,10 @@ item.villager_meat_cooked.name=Cooked Villager Meat
 item.kelenken_feather.name=Kelenken Feather
 
 //tabs
-itemGroup.modtab=De-Extinction mod
+itemGroup.modtab=De-Extinction General
+itemGroup.modtabsyringe=De-Extinction Syringes
+itemGroup.modtabfood=De-Extinction Food
+itemGroup.modtabvial=De-Extinction Vials
 
 //drop
 item.kelenken_feather.name=Kelenken Feather
