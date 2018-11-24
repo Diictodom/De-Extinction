@@ -34,6 +34,15 @@ public class DeexItem {
 	//Syringes
 	public static final Item SYRINGE = new ItemSyringe("syringe");
 	public static final Item SYRINGEBLOOD = new ItemSyringe("syringeblood");
+	//List of Syringes////////////////////////////////////////////
+	public static final Item SYRINGEBLOOD_KELENKEN = new ItemSyringe("syringeblood_kelenken");
+	public static final Item SYRINGEBLOOD_SMILODON = new ItemSyringe("syringeblood_smilodon");
+	public static final Item SYRINGEBLOOD_SEBECUS = new ItemSyringe("syringeblood_sebecus");
+	public static final Item SYRINGEBLOOD_GLYPTODON = new ItemSyringe("syringeblood_glyptodon");
+	public static final Item SYRINGEBLOOD_ARCTHO = new ItemSyringe("syringeblood_arctho");
+	
+	
+	
 	
 	//Vials
 	public static final Item VIAL = new ItemVial("vial");
@@ -41,6 +50,12 @@ public class DeexItem {
 	public static final Item VIALBLOODDEFECTED = new ItemVial("vialblooddefected");
 	public static final Item VIALCENTRIFUGE = new ItemVial("vialcentrifuge");
 	public static final Item VIALFOSSIL = new ItemVial("vialfossil");
+	//List of Vials///////////////////////////////////////////////
+	public static final Item VIALBLOOD_KELENKEN = new ItemVial("vialblood_kelenken");
+	public static final Item VIALBLOOD_SMILODON = new ItemVial("vialblood_smilodon");
+	public static final Item VIALBLOOD_SEBECUS = new ItemVial("vialblood_sebecus");
+	public static final Item VIALBLOOD_GLYPTODON = new ItemVial("vialblood_glyptodon");
+	public static final Item VIALBLOOD_ARCTHO = new ItemVial("vialblood_arctho");
 	
 
 
