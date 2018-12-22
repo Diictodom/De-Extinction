@@ -4,6 +4,7 @@ package com.deextinction.deextinction.util.handler;
 import com.deextinction.deextinction.client.Deextinction;
 import com.deextinction.deextinction.init.DeexBlocks;
 import com.deextinction.deextinction.init.DeexEntity;
+import com.deextinction.deextinction.init.DeexFluid;
 import com.deextinction.deextinction.init.DeexItem;
 import com.deextinction.deextinction.util.IHasModel;
 import com.deextinction.deextinction.world.gen.WorldGenCustomOres;
@@ -58,7 +59,11 @@ public class RegistryHandler
 	
 	public static void preInitRegistries()
 	{
+		DeexFluid.registerFluids();
+		
 		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		
+		
 		
 		DeexEntity.registerEntities();
 		RenderHandler.registerEntityRenders();

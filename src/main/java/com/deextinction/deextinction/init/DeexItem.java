@@ -40,6 +40,11 @@ public class DeexItem {
 	public static final Item SYRINGEBLOOD_SEBECUS = new ItemSyringe("syringeblood_sebecus");
 	public static final Item SYRINGEBLOOD_GLYPTODON = new ItemSyringe("syringeblood_glyptodon");
 	public static final Item SYRINGEBLOOD_ARCTHO = new ItemSyringe("syringeblood_arctho");
+	public static final Item SYRINGEBLOOD_CANIS = new ItemSyringe("syringeblood_canis");
+	public static final Item SYRINGEBLOOD_CUVIER = new ItemSyringe("syringeblood_cuvier");
+	public static final Item SYRINGEBLOOD_MACRA = new ItemSyringe("syringeblood_macra");
+	public static final Item SYRINGEBLOOD_THERIO = new ItemSyringe("syringeblood_therio");
+	public static final Item SYRINGEBLOOD_TOXODON = new ItemSyringe("syringeblood_toxodon");
 	
 	
 	
@@ -56,6 +61,11 @@ public class DeexItem {
 	public static final Item VIALBLOOD_SEBECUS = new ItemVial("vialblood_sebecus");
 	public static final Item VIALBLOOD_GLYPTODON = new ItemVial("vialblood_glyptodon");
 	public static final Item VIALBLOOD_ARCTHO = new ItemVial("vialblood_arctho");
+	public static final Item VIALBLOOD_CANIS = new ItemVial("vialblood_canis");
+	public static final Item VIALBLOOD_CUVIER = new ItemVial("vialblood_cuvier");
+	public static final Item VIALBLOOD_MACRA = new ItemVial("vialblood_macra");
+	public static final Item VIALBLOOD_THERIO = new ItemVial("vialblood_therio");
+	public static final Item VIALBLOOD_TOXODON = new ItemVial("vialblood_toxodon");
 	
 
 

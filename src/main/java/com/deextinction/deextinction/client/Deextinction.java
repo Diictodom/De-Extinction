@@ -15,6 +15,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -34,6 +35,8 @@ public class Deextinction {
 	public static final CreativeTabs modtabsyringe = new ModTabSyringe("modtabsyringe");
 	public static final CreativeTabs modtabfood = new ModTabFood("modtabfood");
 	public static final CreativeTabs modtabvial = new ModTabVial("modtabvial");
+	
+	static { FluidRegistry.enableUniversalBucket(); }
 	
 	
     public static final String MODID = "deextinction";

@@ -4,6 +4,7 @@ package com.deextinction.deextinction.init;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.deextinction.deextinction.blocks.BlockFluid;
 import com.deextinction.deextinction.blocks.CenozoicFossilBlock;
 import com.deextinction.deextinction.blocks.MachineBlock;
 import com.deextinction.deextinction.blocks.MesozoicFossilBlock;
@@ -44,5 +45,7 @@ public class DeexBlocks
 	public static final  Block SOLAR_BLOCK = new SolarBlock("solar_block", Material.IRON);
 	public static final  Block ESTORAGE_BLOCK = new EstorageBlock("estorage_block", Material.IRON);
 	public static final  Block GENERATOR_BLOCK = new GeneratorBlock("generator_block",Material.IRON);
+	
+	public static final  Block TAR_BLOCK = new BlockFluid("tar_block", DeexFluid.TAR_FLUID, Material.LAVA);
 
 }
