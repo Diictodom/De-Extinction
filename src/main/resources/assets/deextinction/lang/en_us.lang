@@ -20,7 +20,8 @@ item.grindingstone.name=Grinding Stone
 item.gear.name=Gear
 
 
-//Vials
+//Fluids
+fluid.tar=Tar
 
 
 //Syringes
@@ -29,6 +30,11 @@ item.syringeblood_smilodon.name=Syringe of Smilodon's Blood
 item.syringeblood_sebecus.name=Syringe of Sebecus's Blood
 item.syringeblood_glyptodon.name=Syringe of Glyptodon's Blood
 item.syringeblood_arctho.name=Syringe of Arcthotherium's Blood
+item.syringeblood_canis.name=Syringe of Canis's Blood
+item.syringeblood_cuvier.name=Syringe of Cuvier's Blood
+item.syringeblood_macra.name=Syringe of Macra's Blood
+item.syringeblood_therio.name=Syringe of Therio's Blood
+item.syringeblood_toxodon.name=Syringe of Toxodon's Blood
 
 //Vials
 item.vialblood_kelenken.name=Vial of Kelenken's Blood
@@ -36,6 +42,11 @@ item.vialblood_smilodon.name=Vial of Smilodon's Blood
 item.vialblood_sebecus.name=Vial of Sebecus's Blood
 item.vialblood_glyptodon.name=Vial of Glyptodon's Blood
 item.vialblood_arctho.name=Vial of Arcthotherium's Blood
+item.vialblood_canis.name=Vial of Canis's Blood
+item.vialblood_cuvier.name=Vial of Cuvier's Blood
+item.vilablood_macra.name=Vial of Macra's Blood
+item.vialblood_therio.name=Vial of Therio's Blood
+item.vialblood_toxodon.name=Vial of Toxodon's Blood
 
 
 //food
