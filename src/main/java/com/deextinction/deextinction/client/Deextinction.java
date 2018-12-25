@@ -47,7 +47,7 @@ public class Deextinction {
 
     
     //gui
-    public static final int GUI_GENERATOR = 1;
+    public static final int GUI_CLEANING_TABLE = 1;
     
     //mobs
     public static final int ENTITY_KELENKEN = 250;

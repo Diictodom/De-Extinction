@@ -3,7 +3,6 @@ package com.deextinction.deextinction.blocks.machine.Egen;
 import com.deextinction.deextinction.blocks.BlockBase;
 import com.deextinction.deextinction.client.Deextinction;
 import com.deextinction.deextinction.init.DeexBlocks;
-import com.deextinction.deextinction.tileentity.TileEntityGeneratorBlock;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -56,7 +55,7 @@ super(name, material);
 	{
 		if(!worldIn.isRemote)
 		{
-			playerIn.openGui(Deextinction.modInstance, Deextinction.GUI_GENERATOR, worldIn, pos.getX(), pos.getY(), pos.getZ());
+			//playerIn.openGui(Deextinction.modInstance, Deextinction.GUI_GENERATOR, worldIn, pos.getX(), pos.getY(), pos.getZ());
 			
 		}
 		return true;
@@ -68,19 +67,7 @@ super(name, material);
 		return true;
 	}
 	
-	@Override
-	public TileEntity createTileEntity(World world, IBlockState state)
-	{
-		return new TileEntityGeneratorBlock();
-	}
 	
-	@Override
-	public void breakBlock(World worldIn, BlockPos pos, IBlockState state)
-	{
-		TileEntityGeneratorBlock tileentity = (TileEntityGeneratorBlock)worldIn.getTileEntity(pos);
-		worldIn.spawnEntity(new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), tileentity.handler.getStackInSlot(0)));
-		super.breakBlock(worldIn, pos, state);
-	}
 
 	@Override 
 	public boolean isOpaqueCube(IBlockState state)

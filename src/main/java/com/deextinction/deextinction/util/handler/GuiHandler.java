@@ -1,9 +1,9 @@
 package com.deextinction.deextinction.util.handler;
 
+import com.deextinction.deextinction.blocks.machine.tileentities.TileEntityCleaningTable;
 import com.deextinction.deextinction.client.Deextinction;
-import com.deextinction.deextinction.container.ContainerGenerator;
-import com.deextinction.deextinction.gui.GuiGenerator;
-import com.deextinction.deextinction.tileentity.TileEntityGeneratorBlock;
+import com.deextinction.deextinction.container.ContainerCleaningTable;
+import com.deextinction.deextinction.gui.GuiCleaningTable;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;
@@ -15,14 +15,14 @@ public class GuiHandler implements IGuiHandler{
 	@Override
 	public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
 	{
-		if(ID == Deextinction.GUI_GENERATOR) return new ContainerGenerator(player.inventory, (TileEntityGeneratorBlock)world.getTileEntity(new BlockPos(x,y,z)));
+		if(ID == Deextinction.GUI_CLEANING_TABLE) return new ContainerCleaningTable(player.inventory, (TileEntityCleaningTable)world.getTileEntity(new BlockPos(x,y,z)));
 		return null;
 		
 	}
 	@Override
 	public Object getClientGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z)
 	{
-		if(ID == Deextinction.GUI_GENERATOR) return new GuiGenerator(player.inventory, (TileEntityGeneratorBlock)world.getTileEntity(new BlockPos(x,y,z)));
+		if(ID == Deextinction.GUI_CLEANING_TABLE) return new GuiCleaningTable(player.inventory, (TileEntityCleaningTable)world.getTileEntity(new BlockPos(x,y,z)));
 		return null;
 	}
 
