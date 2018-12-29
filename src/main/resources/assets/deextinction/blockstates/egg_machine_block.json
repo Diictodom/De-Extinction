@@ -1,29 +1,45 @@
 {
-    "variants": 
-    {
-        "facing=up": 
-        { 
-            "model": "deextinction:egg_machine_block" 
-        },
-    
-        "facing=south": 
-        { 
-            "model": "deextinction:egg_machine_block" 
-        },
-    
-        "facing=east": 
-        { 
-            "model": "deextinction:egg_machine_block","y":270 
-        },
-    
-        "facing=west": 
-        { 
-            "model": "deextinction:egg_machine_block","y":90 
-        },
-    
-        "facing=north": 
-        { 
-            "model": "deextinction:egg_machine_block","y":180 
-        }
-    }
+	"variants": {
+		"burning=false, facing=up": {
+			"model": "deextinction:egg_machine_block"
+		},
+
+		"burning=false,facing=south": {
+			"model": "deextinction:egg_machine_block"
+		},
+
+		"burning=false,facing=east": {
+			"model": "deextinction:egg_machine_block",
+			"y": 270
+		},
+
+		"burning=false,facing=west": {
+			"model": "deextinction:egg_machine_block",
+			"y": 90
+		},
+
+		"burning=true,facing=north": {
+			"model": "deextinction:egg_machine_block",
+			"y": 180
+		},
+
+		"burning=true,facing=up": {
+			"model": "deextinction:egg_machine_block"
+		},
+
+		"burning=true,facing=south": {
+			"model": "deextinction:egg_machine_block"
+		},
+
+		"burning=true,facing=east": {
+			"model": "deextinction:egg_machine_block",
+			"y": 270
+		},
+
+		"burning=true,facing=west": {
+			"model": "deextinction:egg_machine_block",
+			"y": 90
+		}
+
+	}
 }

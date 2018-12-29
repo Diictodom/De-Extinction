@@ -18,10 +18,24 @@ item.vialfossil.name=Vial of Fossil Dust
 item.electronic.name=Electronic Circuit
 item.grindingstone.name=Grinding Stone
 item.gear.name=Gear
+item.data_empty.name=Empty Drive
 
 
 //Fluids
 fluid.tar=Tar
+
+
+//Gui
+container.centrifuge=Centrifuge
+container.cleaningtable=Cleaning Table
+container.estorage=Energy Storage
+container.generator=Generator
+container.solar=Solar Generator
+container.watergenerator=Water Generator
+container.eggmachine=Egg Machine
+container.embryonicmachine=Embryonic Machine
+container.grinder=Grinder
+container.microscope=Microscope
 
 
 //Syringes
@@ -44,9 +58,56 @@ item.vialblood_glyptodon.name=Vial of Glyptodon's Blood
 item.vialblood_arctho.name=Vial of Arcthotherium's Blood
 item.vialblood_canis.name=Vial of Canis's Blood
 item.vialblood_cuvier.name=Vial of Cuvier's Blood
-item.vilablood_macra.name=Vial of Macra's Blood
+item.vialblood_macra.name=Vial of Macra's Blood
 item.vialblood_therio.name=Vial of Therio's Blood
 item.vialblood_toxodon.name=Vial of Toxodon's Blood
+////
+item.vialdust_kelenken.name=Vial of Kelenken's Fossil Dust
+item.vialdust_smilodon.name=Vial of Smilodon's Fossil Dust
+item.vialdust_sebecus.name=Vial of Sebecus's Fossil Dust
+item.vialdust_glyptodon.name=Vial of Glyptodon's Fossil Dust
+item.vialdust_arctho.name=Vial of Arcthotherium's Fossil Dust
+item.vialdust_canis.name=Vial of Canis's Fossil Dust
+item.vialdust_cuvier.name=Vial of Cuvier's Fossil Dust
+item.vialdust_macra.name=Vial of Macra's Fossil Dust
+item.vialdust_therio.name=Vial of Therio's Fossil Dust
+item.vialdust_toxodon.name=Vial of Toxodon's Fossil Dust
+////
+item.vialcent_kelenken.name=Vial of Centrifuged Kelenken's DNA
+item.vialcent_smilodon.name=Vial of Centrifuged Smilodon's DNA
+item.vialcent_sebecus.name=Vial of Centrifuged Sebecus's DNA
+item.vialcent_glyptodon.name=Vial of Centrifuged Glyptodon's DNA
+item.vialcent_arctho.name=Vial of Centrifuged Arcthotherium's DNA
+item.vialcent_canis.name=Vial of Centrifuged Canis's DNA
+item.vialcent_cuvier.name=Vial of Centrifuged Cuvier's DNA
+item.vialcent_macra.name=Vial of Centrifuged Macra's DNA
+item.vialcent_therio.name=Vial of Centrifuged Therio's DNA
+item.vialcent_toxodon.name=Vial of Centrifuged Toxodon's DNA
+
+//Fossils
+item.fossil_kelenken.name=Fossil of Kelenken
+item.fossil_smilodon.name=Fossil of Smilodon
+item.fossil_sebecus.name=Fossil of Sebecus
+item.fossil_glyptodon.name=Fossil of Glyptodon
+item.fossil_arctho.name=Fossil of Arctho
+item.fossil_canis.name=Fossil of Canis
+item.fossil_cuvier.name=Fossil of Cuvier
+item.fossil_macra.name=Fossil of Macra
+item.fossil_therio.name=Fossil of Therio
+item.fossil_toxodon.name=Fossil of Toxodon
+
+//Data
+item.data_kelenken.name=Data of Kelenken's DNA
+item.data_smilodon.name=Data of Smilodon's DNA
+item.data_sebecus.name=Data of Sebecus's DNA
+item.data_glyptodon.name=Data of Glyptodon's DNA
+item.data_arctho.name=Data of Arctho's DNA
+item.data_canis.name=Data of Canis's DNA
+item.data_cuvier.name=Data of Cuvier's DNA
+item.data_macra.name=Data of Macra's DNA
+item.data_therio.name=Data of Therio's DNA
+item.data_toxodon.name=Data of Toxodon's DNA
+
 
 
 //food
@@ -64,12 +125,12 @@ itemGroup.modtab=De-Extinction General
 itemGroup.modtabsyringe=De-Extinction Syringes
 itemGroup.modtabfood=De-Extinction Food
 itemGroup.modtabvial=De-Extinction Vials
+itemGroup.modtabdata=De-Extinction Data Storage
+itemGroup.modtabfossil=De-Extinction Fossils
 
 //drop
 item.kelenken_feather.name=Kelenken Feather
 
-//tabs
-itemGroup.modtab=De-Extinction mod
 
 //blocks
 tile.paleozoic_fossil_block.name=Paleozoic Fossil
@@ -82,7 +143,7 @@ tile.centrifuge_block.name=Centrifuge
 tile.permafrost_block.name=Permafrost
 tile.grinder_block.name=Grinder
 tile.microscope_block.name=Microscope
-tile.water_generator_block.name=Water Turbinek
+tile.water_generator_block.name=Water Turbine
 tile.solar_block.name=Solar Panel
 tile.estorage_block.name=Energy Accumulator
 tile.generator_block.name=Energy Generator
