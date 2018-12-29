@@ -8,7 +8,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.inventory.IInventory;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemHoe;
@@ -29,7 +28,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 
-public class TileEntityCleaningTable extends TileEntity implements IInventory, ITickable
+public class TileEntityCleaningTable extends TileEntity implements ITickable
 {
 	private ItemStackHandler handler = new ItemStackHandler(4);
 	private String customName;
@@ -67,7 +66,7 @@ public class TileEntityCleaningTable extends TileEntity implements IInventory, I
 	@Override
 	public ITextComponent getDisplayName() 
 	{
-		return this.hasCustomName() ? new TextComponentString(this.customName) : new TextComponentTranslation("container.sintering_furnace");
+		return this.hasCustomName() ? new TextComponentString(this.customName) : new TextComponentTranslation("container.cleaningtable");
 	}
 	
 	@Override
@@ -162,7 +161,7 @@ public class TileEntityCleaningTable extends TileEntity implements IInventory, I
 		{
 			if(this.canSmelt() && this.isBurning())
 			{
-				ItemStack output = CleaningTableRecipes.getInstance().getSinteringResult(inputs[0], inputs[1]);
+				ItemStack output = CleaningTableRecipes.getInstance().getCleaningTableResult(inputs[0], inputs[1]);
 				if(!output.isEmpty())
 				{
 					smelting = output;
@@ -181,7 +180,7 @@ public class TileEntityCleaningTable extends TileEntity implements IInventory, I
 		if(((ItemStack)this.handler.getStackInSlot(0)).isEmpty() || ((ItemStack)this.handler.getStackInSlot(1)).isEmpty()) return false;
 		else 
 		{
-			ItemStack result = CleaningTableRecipes.getInstance().getSinteringResult((ItemStack)this.handler.getStackInSlot(0), (ItemStack)this.handler.getStackInSlot(1));	
+			ItemStack result = CleaningTableRecipes.getInstance().getCleaningTableResult((ItemStack)this.handler.getStackInSlot(0), (ItemStack)this.handler.getStackInSlot(1));	
 			if(result.isEmpty()) return false;
 			else
 			{
@@ -266,83 +265,5 @@ public class TileEntityCleaningTable extends TileEntity implements IInventory, I
 		case 3:
 			this.totalCookTime = value;
 		}
-	}
-
-	@Override
-	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public int getSizeInventory() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public ItemStack getStackInSlot(int index) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public ItemStack decrStackSize(int index, int count) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public ItemStack removeStackFromSlot(int index) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void setInventorySlotContents(int index, ItemStack stack) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public int getInventoryStackLimit() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void openInventory(EntityPlayer player) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void closeInventory(EntityPlayer player) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public boolean isItemValidForSlot(int index, ItemStack stack) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public int getFieldCount() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void clear() {
-		// TODO Auto-generated method stub
-		
 	}
 }

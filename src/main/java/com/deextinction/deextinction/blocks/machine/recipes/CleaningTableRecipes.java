@@ -3,6 +3,7 @@ package com.deextinction.deextinction.blocks.machine.recipes;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import com.deextinction.deextinction.init.DeexItem;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
@@ -22,18 +23,20 @@ public class CleaningTableRecipes
 	
 	private CleaningTableRecipes() 
 	{
-		//addSinteringRecipe(new ItemStack(Blocks.ACACIA_FENCE), new ItemStack(Blocks.ACACIA_FENCE_GATE), new ItemStack(BlockInit.COPPER_CHEST), 5.0F);
+		addCleaningTableRecipe(new ItemStack(DeexItem.CHISEL), new ItemStack(DeexItem.CENOZOIC_FOSSIL_DIRTY), new ItemStack(DeexItem.CENOZOIC_FOSSIL_CLEAN), 5.0F);
+		addCleaningTableRecipe(new ItemStack(DeexItem.CHISEL), new ItemStack(DeexItem.MESOZOIC_FOSSIL_DIRTY), new ItemStack(DeexItem.MESOZOIC_FOSSIL_CLEAN), 5.0F);
+		addCleaningTableRecipe(new ItemStack(DeexItem.CHISEL), new ItemStack(DeexItem.PALEOZOIC_FOSSIL_DIRTY), new ItemStack(DeexItem.PALEOZOIC_FOSSIL_CLEAN), 5.0F);
 	}
 
 	
-	public void addSinteringRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience) 
+	public void addCleaningTableRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience) 
 	{
-		if(getSinteringResult(input1, input2) != ItemStack.EMPTY) return;
+		if(getCleaningTableResult(input1, input2) != ItemStack.EMPTY) return;
 		this.smeltingList.put(input1, input2, result);
 		this.experienceList.put(result, Float.valueOf(experience));
 	}
 	
-	public ItemStack getSinteringResult(ItemStack input1, ItemStack input2) 
+	public ItemStack getCleaningTableResult(ItemStack input1, ItemStack input2) 
 	{
 		for(Entry<ItemStack, Map<ItemStack, ItemStack>> entry : this.smeltingList.columnMap().entrySet()) 
 		{
@@ -61,7 +64,7 @@ public class CleaningTableRecipes
 		return this.smeltingList;
 	}
 	
-	public float getSinteringExperience(ItemStack stack)
+	public float getCleaningTableExperience(ItemStack stack)
 	{
 		for (Entry<ItemStack, Float> entry : this.experienceList.entrySet()) 
 		{

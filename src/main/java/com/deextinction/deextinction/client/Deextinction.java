@@ -2,19 +2,18 @@ package com.deextinction.deextinction.client;
 
 
 
-import com.deextinction.deextinction.init.DeexBlocks;
+import com.deextinction.deextinction.init.DeexItem;
 import com.deextinction.deextinction.proxy.CommonProxy;
 import com.deextinction.deextinction.tab.ModTab;
+import com.deextinction.deextinction.tab.ModTabData;
 import com.deextinction.deextinction.tab.ModTabFood;
+import com.deextinction.deextinction.tab.ModTabFossil;
 import com.deextinction.deextinction.tab.ModTabSyringe;
 import com.deextinction.deextinction.tab.ModTabVial;
 import com.deextinction.deextinction.util.handler.RegistryHandler;
 
-import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.crafting.IRecipe;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -24,8 +23,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Deextinction.MODID, name = Deextinction.MODNAME, version = Deextinction.MODVERSION)
 public class Deextinction {
@@ -35,6 +33,8 @@ public class Deextinction {
 	public static final CreativeTabs modtabsyringe = new ModTabSyringe("modtabsyringe");
 	public static final CreativeTabs modtabfood = new ModTabFood("modtabfood");
 	public static final CreativeTabs modtabvial = new ModTabVial("modtabvial");
+	public static final CreativeTabs modtabfossil = new ModTabFossil("modtabfossil");
+	public static final CreativeTabs modtabdata = new ModTabData("modtabdata");
 	
 	static { FluidRegistry.enableUniversalBucket(); }
 	
@@ -48,6 +48,16 @@ public class Deextinction {
     
     //gui
     public static final int GUI_CLEANING_TABLE = 1;
+    public static final int GUI_ESTORAGE = 2;
+    public static final int GUI_GENERATOR = 3;
+    public static final int GUI_SOLAR = 4;
+    public static final int GUI_WATERGENERATOR = 5;
+    public static final int GUI_CENTRIFUGE = 6;
+    public static final int GUI_EGGMACHINE = 7;
+    public static final int GUI_EMBRYONICMACHINE = 8;
+    public static final int GUI_MICROSCOPE = 9;
+    public static final int GUI_GRINDER = 10;
+    
     
     //mobs
     public static final int ENTITY_KELENKEN = 250;
@@ -79,6 +89,7 @@ public class Deextinction {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
     	RegistryHandler.preInitRegistries();
+    	OreDictionary.registerOre("toolChisel", new ItemStack(DeexItem.CHISEL, OreDictionary.WILDCARD_VALUE));
             
     }
     

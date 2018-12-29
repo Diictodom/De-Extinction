@@ -9,10 +9,10 @@ import com.deextinction.deextinction.blocks.MachineBlock;
 import com.deextinction.deextinction.blocks.MesozoicFossilBlock;
 import com.deextinction.deextinction.blocks.PaleozoicFossilBlock;
 import com.deextinction.deextinction.blocks.PermafrostBlock;
-import com.deextinction.deextinction.blocks.machine.Egen.EstorageBlock;
-import com.deextinction.deextinction.blocks.machine.Egen.GeneratorBlock;
-import com.deextinction.deextinction.blocks.machine.Egen.SolarBlock;
-import com.deextinction.deextinction.blocks.machine.Egen.WaterGeneratorBlock;
+import com.deextinction.deextinction.blocks.machine.egen.EstorageBlock;
+import com.deextinction.deextinction.blocks.machine.egen.GeneratorBlock;
+import com.deextinction.deextinction.blocks.machine.egen.SolarBlock;
+import com.deextinction.deextinction.blocks.machine.egen.WaterGeneratorBlock;
 import com.deextinction.deextinction.blocks.machine.cleaning.CleaningTableBlock;
 import com.deextinction.deextinction.blocks.machine.embryogen.CentrifugeBlock;
 import com.deextinction.deextinction.blocks.machine.embryogen.EggMachineBlock;
@@ -35,15 +35,15 @@ public class DeexBlocks
 
     
 	public static final  Block CLEANING_TABLE_BLOCK = new CleaningTableBlock("cleaning_table_block");
-	public static final  Block EMBRYONIC_MACHINE_BLOCK = new EmbryonicMachineBlock("embryonic_machine_block", Material.IRON);
-	public static final  Block EGG_MACHINE_BLOCK = new EggMachineBlock("egg_machine_block", Material.IRON);
-	public static final  Block CENTRIFUGE_BLOCK = new CentrifugeBlock("centrifuge_block", Material.IRON);
-	public static final  Block GRINDER_BLOCK = new GrinderBlock("grinder_block", Material.IRON);
-	public static final  Block MICROSCOPE_BLOCK = new MicroscopeBlock("microscope_block", Material.IRON);
-	public static final  Block WATER_GENERATOR_BLOCK = new WaterGeneratorBlock("water_generator_block", Material.IRON);
-	public static final  Block SOLAR_BLOCK = new SolarBlock("solar_block", Material.IRON);
-	public static final  Block ESTORAGE_BLOCK = new EstorageBlock("estorage_block", Material.IRON);
-	public static final  Block GENERATOR_BLOCK = new GeneratorBlock("generator_block",Material.IRON);
+	public static final  Block EMBRYONIC_MACHINE_BLOCK = new EmbryonicMachineBlock("embryonic_machine_block");
+	public static final  Block EGG_MACHINE_BLOCK = new EggMachineBlock("egg_machine_block");
+	public static final  Block CENTRIFUGE_BLOCK = new CentrifugeBlock("centrifuge_block");
+	public static final  Block GRINDER_BLOCK = new GrinderBlock("grinder_block");
+	public static final  Block MICROSCOPE_BLOCK = new MicroscopeBlock("microscope_block");
+	public static final  Block WATER_GENERATOR_BLOCK = new WaterGeneratorBlock("water_generator_block");
+	public static final  Block SOLAR_BLOCK = new SolarBlock("solar_block");
+	public static final  Block ESTORAGE_BLOCK = new EstorageBlock("estorage_block");
+	public static final  Block GENERATOR_BLOCK = new GeneratorBlock("generator_block");
 	
 
 }

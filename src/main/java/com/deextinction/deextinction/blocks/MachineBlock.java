@@ -5,8 +5,7 @@ package com.deextinction.deextinction.blocks;
 
 import java.util.Random;
 
-import com.deextinction.deextinction.init.DeexItem;
-
+import com.deextinction.deextinction.init.DeexBlocks;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -34,9 +33,10 @@ public class MachineBlock extends BlockBase
 		
 	}
 
-    public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-        return DeexItem.PALEOZOIC_FOSSIL_DIRTY;
-    }
+	public Item getItemDropped(IBlockState state, Random rand, int fortune)
+	{
+		return Item.getItemFromBlock(DeexBlocks.MACHINE_BLOCK);
+	}
    
     public int quantityDropped(Random random) {
         return 1;

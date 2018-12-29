@@ -168,13 +168,6 @@ public class CleaningTableBlock extends BlockBase implements ITileEntityProvider
 		return state.withRotation(mirrorIn.toRotation((EnumFacing)state.getValue(FACING)));
 	}
 	
-	@Override
-	public void breakBlock(World worldIn, BlockPos pos ,IBlockState state)
-	{
-		TileEntityCleaningTable tileentity = (TileEntityCleaningTable)worldIn.getTileEntity(pos);
-		InventoryHelper.dropInventoryItems(worldIn, pos, tileentity);
-		super.breakBlock(worldIn, pos, state);
-	}
 	
 	//tutorial
 	
