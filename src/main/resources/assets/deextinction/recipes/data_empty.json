@@ -1,0 +1,31 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern": [
+		"CXC",
+		"XZX",
+		"CXC"
+	],
+
+	"key": {
+		"X": {
+			"item": "minecraft:redstone",
+			"data": 0
+		},
+		"C": {
+			"item": "minecraft:iron_nugget"
+		},
+
+		"Z": {
+			"item": "deextinction:electronic",
+			"data": 0
+		}
+		
+
+	},
+
+	"result": {
+		"item": "deextinction:data_empty",
+		"count": 1
+	}
+}
