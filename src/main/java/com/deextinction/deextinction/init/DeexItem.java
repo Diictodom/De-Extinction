@@ -7,6 +7,7 @@ import com.deextinction.deextinction.items.ItemBase;
 import com.deextinction.deextinction.items.ItemChisel;
 import com.deextinction.deextinction.items.ItemCustomFood;
 import com.deextinction.deextinction.items.ItemData;
+import com.deextinction.deextinction.items.ItemDrop;
 import com.deextinction.deextinction.items.ItemFossil;
 import com.deextinction.deextinction.items.ItemGrindingstone;
 import com.deextinction.deextinction.items.ItemSyringe;
@@ -35,7 +36,7 @@ public class DeexItem {
 
 	
 	//Drops
-	public static final Item KELENKEN_FEATHER = new ItemBase("kelenken_feather");
+	public static final Item KELENKEN_FEATHER = new ItemDrop("kelenken_feather");
 	
 	
 	//Items
@@ -58,6 +59,7 @@ public class DeexItem {
 	//Syringes
 	public static final Item SYRINGE = new ItemSyringe("syringe");
 	public static final Item SYRINGEBLOOD = new ItemSyringe("syringeblood");
+	public static final Item SYRINGEEMBRYON = new ItemSyringe("syringeembryon");
 	//List of Syringes////////////////////////////////////////////
 	public static final Item SYRINGEBLOOD_KELENKEN = new ItemSyringe("syringeblood_kelenken");
 	public static final Item SYRINGEBLOOD_SMILODON = new ItemSyringe("syringeblood_smilodon");
@@ -69,6 +71,17 @@ public class DeexItem {
 	public static final Item SYRINGEBLOOD_MACRA = new ItemSyringe("syringeblood_macra");
 	public static final Item SYRINGEBLOOD_THERIO = new ItemSyringe("syringeblood_therio");
 	public static final Item SYRINGEBLOOD_TOXODON = new ItemSyringe("syringeblood_toxodon");
+	////EMBRYON////
+	public static final Item SYRINGEEMBRYON_KELENKEN = new ItemSyringe("syringeembryon_kelenken");
+	public static final Item SYRINGEEMBRYON_SMILODON = new ItemSyringe("syringeembryon_smilodon");
+	public static final Item SYRINGEEMBRYON_SEBECUS = new ItemSyringe("syringeembryon_sebecus");
+	public static final Item SYRINGEEMBRYON_GLYPTODON = new ItemSyringe("syringeembryon_glyptodon");
+	public static final Item SYRINGEEMBRYON_ARCTHO = new ItemSyringe("syringeembryon_arctho");
+	public static final Item SYRINGEEMBRYON_CANIS = new ItemSyringe("syringeembryon_canis");
+	public static final Item SYRINGEEMBRYON_CUVIER = new ItemSyringe("syringeembryon_cuvier");
+	public static final Item SYRINGEEMBRYON_MACRA = new ItemSyringe("syringeembryon_macra");
+	public static final Item SYRINGEEMBRYON_THERIO = new ItemSyringe("syringeembryon_therio");
+	public static final Item SYRINGEEMBRYON_TOXODON = new ItemSyringe("syringeembryon_toxodon");
 	
 	
 	
