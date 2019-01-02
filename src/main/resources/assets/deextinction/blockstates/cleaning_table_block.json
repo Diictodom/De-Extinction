@@ -3,6 +3,11 @@
 		"burning=false, facing=up": {
 			"model": "deextinction:cleaning_table_block"
 		},
+		
+		"burning=false,facing=north":{
+			"model": "deextinction:cleaning_table_block",
+			"y": 180
+		},
 
 		"burning=false,facing=south": {
 			"model": "deextinction:cleaning_table_block"

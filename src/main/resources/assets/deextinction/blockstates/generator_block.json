@@ -1,5 +1,9 @@
 {
 	"variants": {
+	"burning=false,facing=north": {
+			"model": "deextinction:generator_block",
+			"y": 180
+		},
 		"burning=false, facing=up": {
 			"model": "deextinction:generator_block"
 		},

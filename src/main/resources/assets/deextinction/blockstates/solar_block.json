@@ -3,6 +3,11 @@
 		"burning=false, facing=up": {
 			"model": "deextinction:solar_block"
 		},
+		
+		"burning=false,facing=north":{
+			"model": "deextinction:solar_block",
+			"y": 180
+		},
 
 		"burning=false,facing=south": {
 			"model": "deextinction:solar_block"

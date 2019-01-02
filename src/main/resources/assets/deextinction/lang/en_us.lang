@@ -19,6 +19,7 @@ item.electronic.name=Electronic Circuit
 item.grindingstone.name=Grinding Stone
 item.gear.name=Gear
 item.data_empty.name=Empty Drive
+item.syringeembryon.name=Syringe with Embryon
 
 
 //Fluids
@@ -49,6 +50,17 @@ item.syringeblood_cuvier.name=Syringe of Cuvier's Blood
 item.syringeblood_macra.name=Syringe of Macra's Blood
 item.syringeblood_therio.name=Syringe of Therio's Blood
 item.syringeblood_toxodon.name=Syringe of Toxodon's Blood
+////
+item.syringeembryon_kelenken.name=Syringe with Kelenken's Embryon
+item.syringeembryon_smilodon.name=Syringe with Smilodon's Embryon
+item.syringeembryon_sebecus.name=Syringe with Sebecus's Embryon
+item.syringeembryon_glyptodon.name=Syringe with Glyptodon's Embryon
+item.syringeembryon_arctho.name=Syringe with Arcthotherium's Embryon
+item.syringeembryon_canis.name=Syringe with Canis's Embryon
+item.syringeembryon_cuvier.name=Syringe with Cuvier's Embryon
+item.syringeembryon_macra.name=Syringe with Macra's Embryon
+item.syringeembryon_therio.name=Syringe with Therio's Embryon
+item.syringeembryon_toxodon.name=Syringe with Toxodon's Embryon
 
 //Vials
 item.vialblood_kelenken.name=Vial of Kelenken's Blood
@@ -127,10 +139,7 @@ itemGroup.modtabfood=De-Extinction Food
 itemGroup.modtabvial=De-Extinction Vials
 itemGroup.modtabdata=De-Extinction Data Storage
 itemGroup.modtabfossil=De-Extinction Fossils
-
-//drop
-item.kelenken_feather.name=Kelenken Feather
-
+itemGroup.modtabdrop=De-Extinction Drops
 
 //blocks
 tile.paleozoic_fossil_block.name=Paleozoic Fossil

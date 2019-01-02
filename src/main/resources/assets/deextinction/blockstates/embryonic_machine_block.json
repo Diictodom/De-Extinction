@@ -3,6 +3,11 @@
 		"burning=false, facing=up": {
 			"model": "deextinction:embryonic_machine_block"
 		},
+		
+		"burning=false,facing=north":{
+			"model": "deextinction:embryonic_machine_block",
+			"y": 180
+		},
 
 		"burning=false,facing=south": {
 			"model": "deextinction:embryonic_machine_block"

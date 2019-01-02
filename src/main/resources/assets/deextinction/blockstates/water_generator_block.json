@@ -1,9 +1,13 @@
 {
 	"variants": {
+	
 		"burning=false, facing=up": {
 			"model": "deextinction:water_generator_block"
 		},
-
+		"burning=false,facing=north": {
+			"model": "deextinction:water_generator_block",
+			"y": 180
+		},
 		"burning=false,facing=south": {
 			"model": "deextinction:water_generator_block"
 		},
