@@ -1,0 +1,50 @@
+{
+	"variants": {
+		"burning=false, facing=up": {
+			"model": "deextinction:computer_block"
+		},
+		
+		"burning=false,facing=north":{
+			"model": "deextinction:computer_block",
+			"y": 180
+		},
+
+		"burning=false,facing=south": {
+			"model": "deextinction:computer_block"
+		},
+
+		"burning=false,facing=east": {
+			"model": "deextinction:computer_block",
+			"y": 270
+		},
+
+		"burning=false,facing=west": {
+			"model": "deextinction:computer_block",
+			"y": 90
+		},
+
+		"burning=true,facing=north": {
+			"model": "deextinction:computer_block",
+			"y": 180
+		},
+
+		"burning=true,facing=up": {
+			"model": "deextinction:computer_block"
+		},
+
+		"burning=true,facing=south": {
+			"model": "deextinction:computer_block"
+		},
+
+		"burning=true,facing=east": {
+			"model": "deextinction:computer_block",
+			"y": 270
+		},
+
+		"burning=true,facing=west": {
+			"model": "deextinction:computer_block",
+			"y": 90
+		}
+
+	}
+}

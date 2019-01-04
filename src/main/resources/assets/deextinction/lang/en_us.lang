@@ -146,7 +146,7 @@ tile.paleozoic_fossil_block.name=Paleozoic Fossil
 tile.mesozoic_fossil_block.name=Mesozoic Fossil
 tile.cenozoic_fossil_block.name=Cenozoic Fossil
 tile.cleaning_table_block.name=Fossil Cleaning Station
-tile.embryonic_machine_block.name=Embryonic Research Station
+tile.dna_decoder_block.name=DNA Decoder
 tile.egg_machine_block.name=Embryo Injection Station
 tile.centrifuge_block.name=Centrifuge
 tile.permafrost_block.name=Permafrost
@@ -157,6 +157,7 @@ tile.solar_block.name=Solar Panel
 tile.estorage_block.name=Energy Accumulator
 tile.generator_block.name=Energy Generator
 tile.machine_block.name=Machine Component Block
+tile.computer_block.name=Computer
 
 
 //Entity

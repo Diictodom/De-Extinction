@@ -1,10 +1,10 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
     "textures": {
-        "0": "blocks/computer",
-        "1": "blocks/keyboard",
-        "2": "blocks/monitor",
-        "3": "blocks/logo"
+        "0": "deextinction:blocks/computer",
+        "1": "deextinction:blocks/keyboard",
+        "2": "deextinction:blocks/monitor",
+        "3": "deextinction:blocks/logo"
     },
     "display": {
         "head": {
