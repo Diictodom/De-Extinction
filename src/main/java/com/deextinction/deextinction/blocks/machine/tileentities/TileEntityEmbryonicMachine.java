@@ -1,6 +1,6 @@
 package com.deextinction.deextinction.blocks.machine.tileentities;
 
-import com.deextinction.deextinction.blocks.machine.embryogen.EmbryonicMachineBlock;
+import com.deextinction.deextinction.blocks.machine.embryogen.DNADecoderBlock;
 import com.deextinction.deextinction.blocks.machine.recipes.EmbryonicMachineRecipes;
 
 import net.minecraft.block.Block;
@@ -111,7 +111,7 @@ public class TileEntityEmbryonicMachine extends TileEntity implements ITickable
 		if(this.isBurning())
 		{
 			--this.burnTime;
-			EmbryonicMachineBlock.setState(true, world, pos);
+			DNADecoderBlock.setState(true, world, pos);
 		}
 		
 		ItemStack[] inputs = new ItemStack[] {handler.getStackInSlot(0), handler.getStackInSlot(1)};
